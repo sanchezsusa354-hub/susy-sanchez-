@@ -1,4 +1,4 @@
-import conexion from "../database/Conexion.js";
+import conexion from "./Conexion.js";
 import { Router } from "express";
 
 const routerProducto = Router()
