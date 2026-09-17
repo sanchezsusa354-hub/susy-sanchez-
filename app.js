@@ -1,6 +1,6 @@
 import express from "express"
 import "dotenv/config"
-import routerProducto from "./routes/Producto.js"
+import routerProducto from "./Producto.js"
 const app = express()
 
 const PORT = process.env.PORT
